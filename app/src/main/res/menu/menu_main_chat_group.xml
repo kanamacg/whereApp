@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="whereapp.kps.cpe.com.wheresapp.MainChatGroup">
+    <item android:id="@+id/action_leave"
+        android:title="@string/action_leave"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_invite"
+        android:title="@string/action_invite"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_member"
+        android:title="@string/action_member"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_request"
+        android:title="@string/action_request"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

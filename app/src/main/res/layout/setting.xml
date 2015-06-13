@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="whereapp.kps.cpe.com.wheresapp.Setting">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/idPhoto"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="browse"
+        android:id="@+id/browse"
+        android:layout_alignBottom="@+id/idPhoto"
+        android:layout_toRightOf="@+id/idPhoto"
+        android:layout_toEndOf="@+id/idPhoto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nick name  "
+        android:textSize="15dp"
+        android:id="@+id/nickname"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/idPhoto"
+        android:layout_alignRight="@+id/newpass"
+        android:layout_alignEnd="@+id/newpass" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editnick"
+        android:hint="Nick name"
+        android:ems="7"
+        android:layout_alignBottom="@+id/nickname"
+        android:layout_alignLeft="@+id/editrepass"
+        android:layout_alignStart="@+id/editrepass"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New password  "
+        android:id="@+id/newpass"
+        android:textSize="15dp"
+        android:layout_alignBottom="@+id/editnewpass"
+        android:layout_alignRight="@+id/repass"
+        android:layout_alignEnd="@+id/repass" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editnewpass"
+        android:hint="New password"
+        android:ems="10"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/editrepass"
+        android:layout_alignStart="@+id/editrepass"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Re password  "
+        android:textSize="15dp"
+        android:id="@+id/repass"
+        android:layout_alignBottom="@+id/editrepass"
+        android:layout_alignRight="@+id/idPhoto"
+        android:layout_alignEnd="@+id/idPhoto" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editrepass"
+        android:hint="Re password"
+        android:ems="10"
+        android:layout_below="@+id/newpass"
+        android:layout_toRightOf="@+id/repass"
+        android:layout_toEndOf="@+id/repass" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save profile"
+        android:id="@+id/save"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/newpass"
+        android:layout_alignStart="@+id/newpass" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete account"
+        android:id="@+id/delete"
+        android:layout_alignTop="@+id/save"
+        android:layout_alignRight="@+id/editrepass"
+        android:layout_alignEnd="@+id/editrepass"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp" />
+
+
+</RelativeLayout>

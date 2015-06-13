@@ -1,0 +1,63 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1">
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnCheckAll"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Check All"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnGetItem"
+            android:layout_toStartOf="@+id/btnGetItem"
+            android:background="#55000000"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btnGetItem"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Invite Group"
+            android:background="#55000000"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btnClearAll"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Clear All"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btnGetItem"
+            android:layout_toEndOf="@+id/btnGetItem"
+            android:background="#55000000"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+
+</TableLayout>
